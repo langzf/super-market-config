@@ -13,4 +13,4 @@ spring:
     password: langzf_ecs_mysql
 
 product:
-  category: "[1,2,3]"
+  productCategory: "[1,2,3]"
