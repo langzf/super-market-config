@@ -1,6 +1,6 @@
 zuul:
   host:
-    connect-timeout-millis: 2000
+    connect-timeout-millis: 20000
   routes:
     account:
       path: /account/**
