@@ -2,6 +2,6 @@ zuul:
   host:
     connect-timeout-millis: 2000
   routes:
-    myAccount:
-      path: /account-dev/*
+    account:
+      path: /account/*
       serviceId: ACCOUNT-DEV
