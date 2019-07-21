@@ -3,5 +3,5 @@ zuul:
     connect-timeout-millis: 2000
   routes:
     account:
-      path: /account/*
-      serviceId: ACCOUNT-DEV
+      path: /account/**
+      serviceId: account-dev
